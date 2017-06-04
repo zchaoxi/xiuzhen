@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #eff0f4;
+}
+input{
+	border: none;
+	outline:medium;
+}
+.header{
+	height: 46px;
+	background: #5fc0cd;
+	font-size: 16px;
+	line-height: 46px;
+	text-align: center;
+	color: #FFF;
+}
+.left{
+	float: left;
+	line-height: 46px;
+	margin-left: 6px;
+}
+.right{
+	float: right;
+	margin-right: 6px;
+	line-height: 46px;s
+}
+.info{
+	margin-top:10px ;
+}
+.line{
+	margin-left: 58px;
+	line-height: 50px;
+	border-left: 1px solid #eaedee;
+}
+.name-logo{
+	position: relative;
+	height: 50px;
+	background: url(../img/phone.png) 21px 14px/13px 22px no-repeat #FFFFFF; 
+}
+.name{
+	position: absolute;
+	top: 17px;;
+	margin-left: 78px;
+	display: block;
+	/*background: url(../img/phone.png) no-repeat 21px 14px/13px 22px white;*/
+}
+.passwd-logo{
+	position: relative;
+	height: 50px;
+	margin-top: 10px;
+	background: url(../img/lock.png) 21px 14px/13px 22px no-repeat #FFFFFF; 
+}
+.passwd{
+	position: absolute;
+	top: 17px;;
+	margin-left: 78px;
+	display: block;
+}
+.login{
+	margin-top: 10px;
+	height: 55px;
+	background: #5fc0cd;
+	position: relative;
+}
+.login-btn{
+	line-height: 55px;
+	letter-spacing: 8px;
+	position: absolute;
+	left: 50%;
+	margin-left: -20px;
+}
+.btn{
+	background: #5FC0CD;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.btn:hover{
+	cursor: pointer;
+}
