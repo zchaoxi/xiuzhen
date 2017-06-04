@@ -80,3 +80,14 @@ input{
 .btn:hover{
 	cursor: pointer;
 }
+.foot-text{
+	text-decoration: none;
+	margin-top: 8px;
+	margin-right: 10px;
+	float: right;
+	background: #eff0f4;
+	color: #5FC0CD;
+}
+.foot-text:hover{
+	text-decoration: underline;
+}
