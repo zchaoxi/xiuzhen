@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 46px;
+	background:#5FC0CD;
+	color: #FFFFFF;
+	line-height: 46px;
+	text-align: center;
+} 
+.back{
+	position: fixed;
+	left: 7px;
+	top: 14px;
+	height: 20px;
+	width: 20px;
+	background: url(../img/back.png) 0 0/20px 20px no-repeat;
+} 
+.person{
+/*	position: relative;*/
+	margin-top: 46px;
+	height: 163px;
+	background: url(../img/server.jpg) 0 0/100% 100% no-repeat;
+}   
+.picture{
+	margin-left: 20px;
+	height: 122px;
+/*	width: 78px;*/
+	background: url(../img/head.png) 0 44px/78px 78px no-repeat;
+}
+.info{
+/*	position: absolute;*/
+	color: #FFFFFF;
+	margin-left: 120px;
+	margin-top: -62px;
+/*	top:58px;*/
+}
+.addr{
+	margin-top: 4px;
+	padding-left: 18px;
+	font-size: 14px;
+	background: url(../img/location.png) 0 0/12px 14px no-repeat;
+}
+.skill{
+	height: 50px;
+	border-bottom:1px solid #e1e5e7;
+	line-height: 50px;
+}  
+.blue-line{
+	margin-left: 10px;
+	margin-right: 6px;
+	border-left: 3px solid #5FC0CD;
+}
+.box{
+	position: relative;
+	margin-left:18px;
+	height: 50px;
+	border-bottom:1px solid #e1e5e7;
+	line-height: 50px;
+	font-size: 14px;
+}
+.choose{
+	display: inline-block;
+	text-indent: 16px;
+	margin-right: 12px;
+	background: url(../img/red-star.png) 0 18px/12px 12px no-repeat;
+	height: 50px;
+}
+
+
+.line{
+	color: #999999;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -9px;
+	line-height: 18px;
+	width: 60px;
+	height: 20px;
+	border-right: 1px solid #e1e5e7;
+	margin-right: 8px;
+	font-size: 14px;
+}
+.introdution{
+	position: relative;
+	margin-bottom: 65px;
+	margin-left: 18px;
+/*	height: 50px;*/
+	border-bottom:1px solid #e1e5e7;
+/*	line-height: 50px;*/
+	font-size: 14px;
+	min-height: 50px;
+
+}
+.text{
+	margin-left: 74px;
+}
+.txt{
+	line-height: 20px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+/*	margin-top: 16px;*/
+}
+
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	background: #FFFFFF;
+	height: 65px;
+/*	border:1px solid #5FC0CD;*/
+	width: 100%;
+} 
+.btn{
+	height: 49px;
+	border: 2px solid #5FC0CD;
+	border-radius: 5px;
+	line-height: 49px;
+	text-align: center;
+}
+.message{
+	position: absolute;
+	top: 8px;
+	left: 2%;
+	width: 45%;
+	color: #5FC0CD;
+}
+.message a{
+	color: #5FC0CD;
+}
+.call{
+	position: absolute;
+	top: 8px;
+	right: 2%;
+	width: 45%;
+	background: #5FC0CD;
+}
+.call a{
+	color: #FFFFFF;
+}
